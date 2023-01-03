@@ -20,6 +20,6 @@ Używany on jest tu ze względu na jego potężny RegEx, za pomocą którego mo�
 
 ## Działanie
 
-Program na start zapyta o prawidłowy argument [od 1 do 3], i adekwatnie do wyboru użytkownika, podmieni odpowiednio bajty zeskanowane z modułu. Dzięki bibliotece pymem skrypt jest w stanie zdefiniować moduły samego procesu, jak i pozyskać wszelkie informacje dotyczące go.
+Program na start zapyta o prawidłowy argument [od 1 do 3], i adekwatnie do wyboru użytkownika, podmieni odpowiednio bajty zeskanowane z modułu. Dzięki bibliotece pymem skrypt jest w stanie zdefiniować moduły samego procesu, po czym może zmodyfikować odpowiednie adresy odpowiadające za reguły gry.
 
 ## Demonstracja
