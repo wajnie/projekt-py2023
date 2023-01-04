@@ -9,14 +9,35 @@ Ten skrypt **nie został** zaprogramowany w celach oszukiwania w grach, ma wył�
 
 ## Wymagane pakiety
 
-Jedyną wymaganą biblioteką do zainstalowania jest `pymem`, która umożliwi nadpisanie pamięci gry, nad którą pracuje program:
+Aby projekt mógł działać poprawnie, wymaga on do zainstalowania bibliotek poniżej w tym dziale:
+
+> `pymem`
+
+Pymem jest biblioteką do manipulowania procesami w systemie Windows (32 i 64 bitowymi). Dzięki tej bibliotece możliwa jest inżyniera odwrotna aplikacji, jak i operowanie pamięcia procesów systemu Windows (odczyt/zapis).
 
 ```python
 pip install pymem
 ```
 
-Poza biblioteką `pymem` posłużyłem się pakietem `re`, który jest domyślnie wgrany wraz z Pythonem.
-Używany on jest tu ze względu na jego potężny RegEx, za pomocą którego można łatwo i szybko odnaleźć odpowiednie szukane dane.
+> `re`
+
+Moduł re zapewnia nam szeroki wybór narzędzi o tematyce wyrażeń regularnych, które pozwalają szybko sprawdzić, czy dany ciąg pasuje do danego wzorca (za pomocą funkcji match), albo czy ma taki wzorzec (za pomocą funkcji search).
+
+```python
+nie wymaga instalacji, jest modułem wbudowanym.
+```
+
+> `os`
+
+Biblioteka os w Pythonie zapewnia programiście funkcje umożliwiające interakcję z systemem operacyjnym.
+
+```python
+pip install os
+```
+
+## Pobieranie projektu
+
+Ostateczna wersja projektu została przeze mnie udostępniona w zakładce po prawej **Releases** i jest wersją gotową do pobrania. W razie wszelkich problemów, zamieszczam bezpośrednio hiperłączę [tutaj](https://github.com/wajnie/projekt-py2023/releases/tag/Fina%C5%82)
 
 ## Działanie
 
