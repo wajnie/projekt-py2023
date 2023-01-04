@@ -35,6 +35,14 @@ Biblioteka os w Pythonie zapewnia programiście funkcje umożliwiające interakc
 pip install os
 ```
 
+> `time`
+
+W tym projekcie, importując moduł time, posłużyłem się tylko funkcją `sleep`, jednak jest wymagany cały moduł, żeby program zadziałał bez problemu.
+
+```python
+pip install time
+```
+
 ## Pobieranie projektu
 
 Ostateczna wersja projektu została przeze mnie udostępniona w zakładce po prawej **Releases** i jest wersją gotową do pobrania. W razie wszelkich problemów, zamieszczam bezpośrednio hiperłączę [tutaj](https://github.com/wajnie/projekt-py2023/releases/tag/Fina%C5%82)
