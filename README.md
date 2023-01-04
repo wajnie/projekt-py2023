@@ -23,25 +23,14 @@ pip install pymem
 
 Moduł re zapewnia nam szeroki wybór narzędzi o tematyce wyrażeń regularnych, które pozwalają szybko sprawdzić, czy dany ciąg pasuje do danego wzorca (za pomocą funkcji match), albo czy ma taki wzorzec (za pomocą funkcji search).
 
-```python
-nie wymaga instalacji, jest modułem wbudowanym.
-```
-
 > `os`
 
 Biblioteka os w Pythonie zapewnia programiście funkcje umożliwiające interakcję z systemem operacyjnym.
-
-```python
-pip install os
-```
 
 > `time`
 
 W tym projekcie, importując moduł time, posłużyłem się tylko funkcją `sleep`, jednak jest wymagany cały moduł, żeby program zadziałał bez problemu.
 
-```python
-pip install time
-```
 
 ## Pobieranie projektu
 
@@ -52,3 +41,7 @@ Ostateczna wersja projektu została przeze mnie udostępniona w zakładce po pra
 Program na start zapyta o prawidłowy argument [od 1 do 3], i adekwatnie do wyboru użytkownika, podmieni odpowiednio bajty zeskanowane z modułu. Dzięki bibliotece pymem skrypt jest w stanie zdefiniować moduły samego procesu, po czym może zmodyfikować odpowiednie adresy odpowiadające za reguły gry.
 
 ## Demonstracja
+
+Film prezentujący działanie programu opublikowałem na serwisie Youtube, ponieważ Github posiada limit 10 megabajtów, dla plików które mogę włożyć do tego pliku README.
+
+### **https://www.youtube.com/watch?v=mBAb47E9Ocg**
