@@ -17,7 +17,7 @@ Aby projekt mógł działać poprawnie, wymaga on do zainstalowania bibliotek po
 
 `os` - Biblioteka os w Pythonie zapewnia programiście funkcje umożliwiające interakcję z systemem operacyjnym.
 
-`time` - W tym projekcie, importując moduł time, posłużyłem się tylko funkcją `sleep`, jednak jest wymagany cały moduł, żeby program zadziałał bez problemu.
+`time` - W tym projekcie, importując moduł time, posłużyłem się tylko funkcją `sleep()`, jednak jest wymagany cały moduł, żeby program zadziałał bez problemu.
 
 
 ## Pobieranie projektu
