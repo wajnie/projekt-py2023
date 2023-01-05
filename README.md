@@ -4,11 +4,11 @@
 
 W tym repozytorium znajduje się oprogramowana przeze mnie aplikacja konsolowa, która modyfikuje pamięć procesu gry Crab Game tak, że podmienione wartości w pamięci zapewnią **nieuczciwą** przewagę nad innymi graczami.
 
-#### !!
+> **ZASTRZEŻENIE:**
 > Ten skrypt **nie został** zaprogramowany w celach oszukiwania w grach,
 > ma wyłącznie na celu pokazanie jak python radzi sobie z inżynierią odwrotną oraz z zabawą z odczytem i modyfikacją pamięci.
 
-## Wymagane pakiety
+## Wymagane instalacje
 
 Aby skrypt mógł działać poprawnie, wymaga on posiadania/zainstalowania bibliotek wymienionych poniżej:
 
@@ -23,11 +23,12 @@ Aby skrypt mógł działać poprawnie, wymaga on posiadania/zainstalowania bibli
 
 ## Pobieranie projektu
 
-Ostateczna wersja projektu została przeze mnie udostępniona w zakładce po prawej **Releases** i jest wersją gotową do pobrania. W razie wszelkich problemów, zamieszczam bezpośrednio hiperłączę [tutaj](https://github.com/wajnie/projekt-py2023/releases/tag/Fina%C5%82)
+Ostateczna wersja projektu została przeze mnie udostępniona w zakładce po prawej **Releases** i jest wersją gotową do pobrania. W razie wszelkich problemów, zamieszczam bezpośrednio hiperłączę **[tutaj](https://github.com/wajnie/projekt-py2023/releases/tag/Fina%C5%82)**
 
 ## Działanie
 
 Do wybrania są 3 prawidłowe argumenty:
+
 `1` - odpowiadający za nieskończony skok
 
 `2` - odpowiadający za zmniejszenie odrzutu
@@ -40,6 +41,6 @@ Na końcu skrypt zapisuje dane w obszarze pamięci w instancji gry, i dzięki te
 
 ## Demonstracja
 
-Film prezentujący działanie programu opublikowałem na serwisie Youtube, ponieważ Github posiada limit 10 megabajtów, dla plików które mogę włożyć do tego pliku README.
+Przedstawienie działania projektu opublikowałem na serwisie Youtube, ponieważ Github posiada limit 10 megabajtów, co jest najzwyczajniej za mało dla takiego filmu.
 
-### **[Film pokazujący działanie projektu](https://www.youtube.com/watch?v=mBAb47E9Ocg)**
+### **[Wideo pokazujący działanie projektu](https://www.youtube.com/watch?v=mBAb47E9Ocg)**
