@@ -2,7 +2,7 @@
 
 ## Wprowadzenie
 
-W tym repozytorium znajduje się oprogramowana przeze mnie aplikacja działająca w terminalu, która modyfikuje pamięć gry Crab Game w taki sposób, że podmienione wartości w pamięci zapewnią **nieuczciwą** przewagę nad innymi graczami.
+W tym repozytorium znajduje się oprogramowana przeze mnie aplikacja konsolowa, która modyfikuje pamięć procesu gry Crab Game tak, że podmienione wartości w pamięci zapewnią **nieuczciwą** przewagę nad innymi graczami.
 
 #### UWAGA!
 Ten skrypt **nie został** zaprogramowany w celach oszukiwania w grach, ma wyłącznie na celu pokazanie jak python radzi sobie z inżynierią odwrotną oraz z zabawą z odczytem i modyfikacją pamięci.
@@ -11,21 +11,13 @@ Ten skrypt **nie został** zaprogramowany w celach oszukiwania w grach, ma wył�
 
 Aby projekt mógł działać poprawnie, wymaga on do zainstalowania bibliotek poniżej w tym dziale:
 
-> `pymem`
+`pymem` - Pymem jest biblioteką do manipulowania procesami w systemie Windows (32 i 64 bitowymi). Dzięki tej bibliotece możliwa jest inżyniera odwrotna aplikacji, jak i operowanie pamięcia procesów systemu Windows (odczyt/zapis).
 
-Pymem jest biblioteką do manipulowania procesami w systemie Windows (32 i 64 bitowymi). Dzięki tej bibliotece możliwa jest inżyniera odwrotna aplikacji, jak i operowanie pamięcia procesów systemu Windows (odczyt/zapis).
+`re` - Moduł re zapewnia nam szeroki wybór narzędzi o tematyce wyrażeń regularnych, które pozwalają szybko sprawdzić, czy dany ciąg pasuje do danego wzorca (za pomocą funkcji match), albo czy ma taki wzorzec (za pomocą funkcji search).
 
-> `re`
+`os` - Biblioteka os w Pythonie zapewnia programiście funkcje umożliwiające interakcję z systemem operacyjnym.
 
-Moduł re zapewnia nam szeroki wybór narzędzi o tematyce wyrażeń regularnych, które pozwalają szybko sprawdzić, czy dany ciąg pasuje do danego wzorca (za pomocą funkcji match), albo czy ma taki wzorzec (za pomocą funkcji search).
-
-> `os`
-
-Biblioteka os w Pythonie zapewnia programiście funkcje umożliwiające interakcję z systemem operacyjnym.
-
-> `time`
-
-W tym projekcie, importując moduł time, posłużyłem się tylko funkcją `sleep`, jednak jest wymagany cały moduł, żeby program zadziałał bez problemu.
+`time` - W tym projekcie, importując moduł time, posłużyłem się tylko funkcją `sleep`, jednak jest wymagany cały moduł, żeby program zadziałał bez problemu.
 
 
 ## Pobieranie projektu
