@@ -42,4 +42,4 @@ Na końcu skrypt zapisuje dane w obszarze pamięci w instancji gry, i dzięki te
 
 Film prezentujący działanie programu opublikowałem na serwisie Youtube, ponieważ Github posiada limit 10 megabajtów, dla plików które mogę włożyć do tego pliku README.
 
-### **https://www.youtube.com/watch?v=mBAb47E9Ocg**
+### **[Film pokazujący działanie projektu](https://www.youtube.com/watch?v=mBAb47E9Ocg)**
