@@ -43,4 +43,4 @@ Na końcu skrypt zapisuje dane w obszarze pamięci w instancji gry, i dzięki te
 
 Przedstawienie działania projektu opublikowałem na serwisie Youtube, ponieważ Github posiada limit 10 megabajtów, co jest najzwyczajniej za mało dla takiego filmu.
 
-### **[Wideo pokazujący działanie projektu](https://www.youtube.com/watch?v=mBAb47E9Ocg)**
+#### **[https://youtube.com/projekt_demonstracja.mp4](https://www.youtube.com/watch?v=mBAb47E9Ocg)**
