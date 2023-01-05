@@ -5,12 +5,12 @@
 W tym repozytorium znajduje się oprogramowana przeze mnie aplikacja konsolowa, która modyfikuje pamięć procesu gry Crab Game tak, że podmienione wartości w pamięci zapewnią **nieuczciwą** przewagę nad innymi graczami.
 
 
-> #### Ten skrypt **nie został** zaprogramowany...
-> w celach oszukiwania w grach, ma wyłącznie na celu pokazanie jak python radzi sobie z inżynierią odwrotną oraz z zabawą z odczytem i modyfikacją pamięci.
+> #### **Ten skrypt nie został zaprogramowany w celach oszukiwania...
+> w grach, ma wyłącznie na celu pokazanie jak python radzi sobie z inżynierią odwrotną oraz z zabawą z odczytem i modyfikacją pamięci.**
 
 ## Wymagane pakiety
 
-Aby projekt mógł działać poprawnie, wymaga on do zainstalowania bibliotek poniżej w tym dziale:
+Aby projekt mógł działać poprawnie, wymaga on posiadania zainstalowanych bibliotek wymienionych poniżej:
 
 `pymem` - Pymem jest biblioteką do manipulowania procesami w systemie Windows (32 i 64 bitowymi). Dzięki tej bibliotece możliwa jest inżyniera odwrotna aplikacji, jak i operowanie pamięcia procesów systemu Windows (odczyt/zapis).
 
