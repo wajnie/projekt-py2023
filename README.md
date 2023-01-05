@@ -4,7 +4,7 @@
 
 W tym repozytorium znajduje się oprogramowana przeze mnie aplikacja konsolowa, która modyfikuje pamięć procesu gry Crab Game tak, że podmienione wartości w pamięci zapewnią **nieuczciwą** przewagę nad innymi graczami.
 
-#### zastrzeżenie;
+#### !!
 > Ten skrypt **nie został** zaprogramowany w celach oszukiwania w grach,
 > ma wyłącznie na celu pokazanie jak python radzi sobie z inżynierią odwrotną oraz z zabawą z odczytem i modyfikacją pamięci.
 
@@ -29,14 +29,15 @@ Ostateczna wersja projektu została przeze mnie udostępniona w zakładce po pra
 
 Do wybrania są 3 prawidłowe argumenty:
 `1` - odpowiadający za nieskończony skok
+
 `2` - odpowiadający za zmniejszenie odrzutu
+
 `3` - odpowiadający za szybkie uderzanie
 
-Po wybraniu jednego z tych argumentów program zacznie pobierać wszystkie bajty z modułu gry. Gdy mu się to powiedzie, zacznie on pracę z biblioteką `re`, która z danymi jej kryteriami, zacznie szukać poszczególnych adresów w pamięci procesu gry.
+Po wybraniu jednego z tych argumentów skrypt zacznie pobierać wszystkie dane z pamięci modułu gry. Gdy mu się to powiedzie, zacznie pracę z biblioteką `re`, która z danymi jej kryteriami, zacznie szukać poszczególnych bajtów w pamięci tego procesu.
 
-Na końcu skrypt zapisuje dane w obszarze pamięci w instancji gry, zmieniając jej zasady i prawa.
+Na końcu skrypt zapisuje dane w obszarze pamięci w instancji gry, i dzięki temu zmienia jej konkretne zasady i prawa.
 
-Gdy 
 ## Demonstracja
 
 Film prezentujący działanie programu opublikowałem na serwisie Youtube, ponieważ Github posiada limit 10 megabajtów, dla plików które mogę włożyć do tego pliku README.
